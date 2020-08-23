@@ -1,8 +1,28 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+
+.header {
+  height: 100vh;
+  background-image: url("https://cdn.hwang.sh/wedding/header-bg-2x-compressed.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  background-attachment: scroll;
+}
+
+.headerTitle {
+  position: absolute;
+  width: 79vw;
+  left: 5.33%;
+  top: 5.9%
+}
+
+.headerDate {
+  position: absolute;
+  width: 33vw;
+  right: 7%;
+  bottom: 6.64%;
 }
