@@ -1,6 +1,18 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import React from "react";
+import Gallery from 'react-grid-gallery';
+
+const IMAGES = [
+    {
+        src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
+        thumbnail: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 174,
+        alt: "",
+        caption: "After Rain (Jeshu John - designerspics.com)"
+    },
+];
 
 export default function Home() {
   return (
@@ -16,8 +28,8 @@ export default function Home() {
                   <img className={styles.headerDate} src="https://cdn.hwang.sh/wedding/header-date.svg" alt="10월 10일" />
               </div>
           </header>
-          <section>
-              <table>
+          <section className={styles.info}>
+              <table className={styles.infoUs}>
                   <thead>
                       <tr>
                           <th>신랑</th>
@@ -31,39 +43,46 @@ export default function Home() {
                       </tr>
                   </tbody>
               </table>
-              <div>
-                  <time dateTime="2020-10-10T12:30:00.000+09:00">2020년 10월 10일 12시 30분</time>
-                  <p>인천 네스트 호텔</p>
-                  <button>캘린더에 추가</button>
+              <div className={styles.infoWhenAndWhere}>
+                  <time dateTime="2020-10-10T12:30:00.000+09:00" className={styles.infoWhen}>2020년 10월 10일 12시 30분</time>
+                  <p className={styles.infoWhere}>인천 네스트 호텔</p>
+                  <button className={styles.infoCalendarBtn}>캘린더에 일정 추가</button>
               </div>
-              <table>
-                  <tbody>
+              <div className={styles.infoOurParents}>
+                  <table>
+                      <tbody>
                       <tr>
-                          <td>신랑 어머니</td>
+                          <td className={styles.infoOurParentsLabel}>신랑 어머니</td>
                           <td>최영선</td>
                       </tr>
                       <tr>
-                          <td>신랑 아버지</td>
+                          <td className={styles.infoOurParentsLabel}>신랑 아버지</td>
                           <td>황영일</td>
                       </tr>
-                  </tbody>
-              </table>
-              <table>
-                  <tbody>
+                      </tbody>
+                  </table>
+                  <table>
+                      <tbody>
                       <tr>
-                          <td>신부 어머니</td>
+                          <td className={styles.infoOurParentsLabel}>신부 어머니</td>
                           <td>서미선</td>
                       </tr>
                       <tr>
-                          <td>신부 아버지</td>
+                          <td className={styles.infoOurParentsLabel}>신부 아버지</td>
                           <td>서광석</td>
                       </tr>
-                  </tbody>
-              </table>
+                      </tbody>
+                  </table>
+              </div>
           </section>
-          <section>
-              images
+
+          <section className={styles.gallery}>
+              <Gallery
+                  images={IMAGES}
+                  enableImageSelection={false}
+              />
           </section>
+
           <section>
               <h2>오시는 길</h2>
               <div>map</div>

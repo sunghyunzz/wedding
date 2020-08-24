@@ -5,6 +5,8 @@ body {
   font-family: 'Noto Serif KR', serif;
   font-weight: 300;
   font-style: normal;
+  font-size: 1rem;
+  color: #000;
 }
 
 a {
