@@ -26,3 +26,164 @@
   right: 7%;
   bottom: 6.64%;
 }
+
+.info {
+  margin: 3.625rem 0;
+  text-align: center;
+}
+
+.infoUs {
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 2rem 0.8125rem;
+}
+
+.infoUs thead {
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.infoWhenAndWhere {
+  margin: 4.875rem auto 0 auto;
+  font-size: 0.875rem;
+  position: relative;
+}
+
+.infoWhen::before {
+  content: '';
+  width: 100%;
+  height: 4.4rem;
+  display: block;
+  background-image: url("https://cdn.hwang.sh/wedding/info-wedding.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -2.5rem;
+}
+
+.infoWhere {
+  margin: .875rem 0;
+}
+
+.infoCalendarBtn {
+  display: block;
+  margin: 1.5625rem 0 0 0;
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.infoOurParents {
+  margin: 3.5rem auto 0 auto;
+  display: flex;
+  justify-content: center;
+  font-size: 0.875rem;
+}
+
+.infoOurParents table {
+  border-collapse: separate;
+  border-spacing: 1.25rem 1.125rem;
+}
+
+.infoOurParentsLabel {
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.gallery {
+  margin: 3.5rem auto 0 auto;
+  overflow: hidden;
+  padding: 0 3%;
+}
+
+.contact {
+  margin: 0;
+}
+
+.contactTitle {
+  margin: 3rem 0;
+  text-align: center;
+  font-size: 0.875rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.contactMap {
+  padding: 0 3%;
+}
+
+.contactHowto {
+  margin: 2.25rem 3%;
+  padding: 0;
+  list-style: none;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+
+.contactHowto li {
+  margin: 0;
+}
+
+.contactHowto li:nth-child(2) {
+  margin: 4.25rem 0 0 0;
+}
+
+.contactHowto li:nth-child(3) {
+  margin: 3.9375rem 0 0 0;
+}
+
+.contactHowtoTitle {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.contactHowtoDescription {
+  margin: 1rem 0 0 0;
+  line-height: 1.5;
+}
+
+.contactHowtoDescription:last-child {
+  margin: .75rem 0 0 0;
+}
+
+.contactHowtoBus {
+  color: #856565;
+  font-weight: 400;
+  display: block;
+  margin: 1.75rem 0 0 0;
+}
+
+.us {
+  position: relative;
+  margin: 8.4375rem 3% 3% 3%;
+}
+
+.usTitle {
+  text-align: center;
+  margin: 0 0 2.625rem 0;
+}
+
+.usTitle::before {
+  content: '';
+  width: 100%;
+  height: 4rem;
+  display: block;
+  background-image: url("https://cdn.hwang.sh/wedding/thanks.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -3.125rem;
+}
+
+.usVideo {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.usVideo iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
