@@ -83,28 +83,57 @@ export default function Home() {
               />
           </section>
 
-          <section>
-              <h2>오시는 길</h2>
-              <div>map</div>
-              <ul>
+          <section className={styles.contact}>
+              <h2 className={styles.contactTitle}>오시는 길</h2>
+              <div className={styles.contactMap}>
+                  <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.507784331008!2d126.42575501566854!3d37.42510747982459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b90ae8e685921%3A0xf5dfc1398b884b99!2z64Sk7Iqk7Yq4IO2YuO2FlA!5e0!3m2!1sko!2skr!4v1598356818882!5m2!1sko!2skr"
+                      width="100%" height="450" frameBorder="0" allowFullScreen="" aria-hidden="false"
+                      tabIndex="0"></iframe>
+              </div>
+              <ul className={styles.contactHowto}>
                   <li>
-                      <h3>자가용 이용 시</h3>
-                      <p>...</p>
+                      <h3 className={styles.contactHowtoTitle}>자가용 이용 시</h3>
+                      <p className={styles.contactHowtoDescription}>
+                          인천공항고속도로 용유도~무의도 방향 진출 후 영종해안남로를 따라 약 5km 주행 후 경정훈련원 방면으로 진입하시면 네스트호텔에 도착합니다.
+                          <br/>
+                          <br />
+                          네비게이션 검색 방법
+                          <br />
+                          - 네스트호텔 또는 주소 검색
+                          <br />
+                          - 용유역 또는 경정훈련원, 거잠포 선착장 검색
+                          <br />
+                          <br />
+                          (업그레이드가 되지 않은 네비의 경우 위의 단어로 검색)
+                      </p>
                   </li>
                   <li>
-                      <h3>인천국제공에서 오시는 법</h3>
-                      <p>...</p>
-                      <a href="#">무료 셔틀버스 시간표</a>
+                      <h3 className={styles.contactHowtoTitle}>인천국제공에서 오시는 법</h3>
+                      <p className={styles.contactHowtoDescription}>
+                          인천국제공항 제1여객터미널, 1층14C에서 출발
+                          (45분 간격 운행, 10~15분 소요)
+                          <br /><br />
+                          인천국제공항 제2여객터미널,1층6A에서 출발
+                          (20~25분 소요)
+                      </p>
+                      <a href="https://www.nesthotel.co.kr/about/popup_bus01.asp#bustop" className={styles.contactHowtoBus}>무료 셔틀버스 시간표</a>
                   </li>
                   <li>
-                      <h3>광주광역시에서 출발하시는 하객 분</h3>
-                      <p>버스 대절 예정이니 신랑측 혼주께 연락바랍니다.</p>
+                      <h3 className={styles.contactHowtoTitle}>광주광역시에서 출발하시는 하객 분</h3>
+                      <p className={styles.contactHowtoDescription}>버스 대절 예정이니 신랑측 혼주께 연락바랍니다.</p>
                   </li>
               </ul>
           </section>
-          <footer>
-              <p>오시는 길 심심치 않도록 저희 부부가 요즘 관심있는 주제의 영상을 모아봤어요.</p>
-              <div>video</div>
+          <footer className={styles.us}>
+              <p className={styles.usTitle}>오시는 길 심심치 않도록<br/>저희 부부가 요즘 관심있는 주제의 영상을 모아봤어요</p>
+              <div className={styles.usVideo}>
+                  <iframe width="560" height="315"
+                          src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL5RL7r5pQ8lRylqEdrg9Rh1a-IWw0mZoy"
+                          frameBorder="0"
+                          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen></iframe>
+              </div>
           </footer>
       </main>
     </div>
