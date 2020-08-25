@@ -45,8 +45,8 @@ export default function Home() {
               </table>
               <div className={styles.infoWhenAndWhere}>
                   <time dateTime="2020-10-10T12:30:00.000+09:00" className={styles.infoWhen}>2020년 10월 10일 12시 30분</time>
-                  <p className={styles.infoWhere}>인천 네스트 호텔</p>
-                  <button className={styles.infoCalendarBtn}>캘린더에 일정 추가</button>
+                  <p className={styles.infoWhere}><a href="https://goo.gl/maps/LZdGmn4ct9aJvMTs9">인천 네스트 호텔</a></p>
+                  <a href="https://calendar.google.com/calendar/r/eventedit?text=%EC%9E%90%EC%98%81%C2%B7%EC%84%B1%ED%98%84%20%EA%B2%B0%ED%98%BC%EC%8B%9D&dates=20201010T033000Z/20201010T050000Z&details=7%EB%85%84%EC%9D%98%20%EB%A7%8C%EB%82%A8%20%EB%81%9D%EC%97%90%20%EC%A0%80%ED%9D%AC%20%EB%91%90%20%EC%82%AC%EB%9E%8C%EC%9D%B4%20%ED%95%9C%EB%A7%88%EC%9D%8C%EC%9C%BC%EB%A1%9C%20%EC%A7%84%EC%8B%A4%ED%95%9C%20%EC%82%AC%EB%9E%91%EC%9D%98%20%EA%B2%B0%EC%8B%A4%EC%9D%84%20%EB%A7%BA%EA%B8%B0%EB%A1%9C%20%EC%95%BD%EC%86%8D%ED%96%88%EC%8A%B5%EB%8B%88%EB%8B%A4.%20%EB%9C%BB%EA%B9%8A%EC%9D%80%20%EC%9E%90%EB%A6%AC%EC%97%90%20%EC%98%A4%EC%8B%9C%EC%96%B4%20%EC%B6%95%EB%B3%B5%ED%95%B4%EC%A3%BC%EC%8B%AD%EC%8B%9C%EC%98%A4.%20%EB%8D%94%20%EC%9E%90%EC%84%B8%ED%95%9C%20%EC%A0%95%EB%B3%B4%EB%8A%94%20%EC%B2%A8%EB%B6%80%ED%95%9C%20%EC%A3%BC%EC%86%8C%20%ED%99%95%EC%9D%B8%20%EB%B6%80%ED%83%81%EB%93%9C%EB%A6%BD%EB%8B%88%EB%8B%A4.%20https%3A%2F%2Fjayoung.sunghyun.wedding&location=%EB%84%A4%EC%8A%A4%ED%8A%B8%20%ED%98%B8%ED%85%94%2C%20%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%20%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%A4%91%EA%B5%AC%20%EC%9A%A9%EC%9C%A0%EB%8F%99%20%EC%98%81%EC%A2%85%ED%95%B4%EC%95%88%EB%82%A8%EB%A1%9C%2019-5" className={styles.infoCalendarBtn}>캘린더에 일정 추가</a>
               </div>
               <div className={styles.infoOurParents}>
                   <table>
