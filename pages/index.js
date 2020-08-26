@@ -9,96 +9,84 @@ const IMAGES = [
         thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN08305-thumbnail.jpg",
         thumbnailWidth: 110,
         thumbnailHeight: 110,
-        alt: "",
-        caption: "",
-    },
-    {
-        src: "https://cdn.hwang.sh/wedding/photo/HAN08352.jpg",
-        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN08352-thumbnail.jpg",
-        thumbnailWidth: 110,
-        thumbnailHeight: 110,
-        alt: "",
-        caption: "",
+        alt: "새벽 고속도로 위 서자영과 황성현",
     },
     {
         src: "https://cdn.hwang.sh/wedding/photo/HAN08365.jpg",
         thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN08365-thumbnail.jpg",
         thumbnailWidth: 110,
         thumbnailHeight: 110,
-        alt: "",
-        caption: "",
+        alt: "등유 램프를 들고 있는 황성현과 그 앞에서 꽃을 들고 있는 서자영",
+    },
+    {
+        src: "https://cdn.hwang.sh/wedding/photo/HAN08352.jpg",
+        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN08352-thumbnail.jpg",
+        thumbnailWidth: 110,
+        thumbnailHeight: 110,
+        alt: "등유 램프와 꽃을 들고 서로를 보는 커플",
     },
     {
         src: "https://cdn.hwang.sh/wedding/photo/HAN08584.jpg",
         thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN08584-thumbnail.jpg",
         thumbnailWidth: 110,
         thumbnailHeight: 110,
-        alt: "",
-        caption: "",
-    },
-    {
-        src: "https://cdn.hwang.sh/wedding/photo/HAN08929.jpg",
-        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN08929-thumbnail.jpg",
-        thumbnailWidth: 110,
-        thumbnailHeight: 110,
-        alt: "",
-        caption: "",
+        alt: "하늘을 보면서 한 방향으로 걸어가는 두 사람",
     },
     {
         src: "https://cdn.hwang.sh/wedding/photo/HAN08990.jpg",
         thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN08990-thumbnail.jpg",
         thumbnailWidth: 110,
         thumbnailHeight: 110,
-        alt: "",
-        caption: "",
+        alt: "물가에 서있는 황성현과 서자영",
     },
     {
         src: "https://cdn.hwang.sh/wedding/photo/HAN09087.jpg",
         thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN09087-thumbnail.jpg",
         thumbnailWidth: 110,
         thumbnailHeight: 110,
-        alt: "",
-        caption: "",
+        alt: "활짝 웃는 서자영과 그 앞에 웃고 있는 황성현",
     },
     {
-        src: "https://cdn.hwang.sh/wedding/photo/HAN09258.jpg",
-        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN09258-thumbnail.jpg",
+        src: "https://cdn.hwang.sh/wedding/photo/HAN08929.jpg",
+        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN08929-thumbnail.jpg",
         thumbnailWidth: 110,
         thumbnailHeight: 110,
-        alt: "",
-        caption: "",
-    },
-    {
-        src: "https://cdn.hwang.sh/wedding/photo/HAN09314.jpg",
-        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN09314-thumbnail.jpg",
-        thumbnailWidth: 110,
-        thumbnailHeight: 110,
-        alt: "",
-        caption: "",
-    },
-    {
-        src: "https://cdn.hwang.sh/wedding/photo/HAN09344.jpg",
-        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN09344-thumbnail.jpg",
-        thumbnailWidth: 110,
-        thumbnailHeight: 110,
-        alt: "",
-        caption: "",
-    },
-    {
-        src: "https://cdn.hwang.sh/wedding/photo/HAN09530.jpg",
-        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN09530-thumbnail.jpg",
-        thumbnailWidth: 110,
-        thumbnailHeight: 110,
-        alt: "",
-        caption: "",
+        alt: "자동차 트렁크에 앉아 장난을 치고 있는 서자영과 황성현",
     },
     {
         src: "https://cdn.hwang.sh/wedding/photo/HAN09727.jpg",
         thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN09727-thumbnail.jpg",
         thumbnailWidth: 110,
         thumbnailHeight: 110,
-        alt: "",
-        caption: "",
+        alt: "황성현 어께에 손을 올리고 웃는 서자영",
+    },
+    {
+        src: "https://cdn.hwang.sh/wedding/photo/HAN09258.jpg",
+        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN09258-thumbnail.jpg",
+        thumbnailWidth: 110,
+        thumbnailHeight: 110,
+        alt: "황성현 뒤에서 목을 안고 장난을 치는 서자영",
+    },
+    {
+        src: "https://cdn.hwang.sh/wedding/photo/HAN09344.jpg",
+        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN09344-thumbnail.jpg",
+        thumbnailWidth: 110,
+        thumbnailHeight: 110,
+        alt: "황성현의 볼을 꼬집는 서자영과 활짝 웃는 황성현",
+    },
+    {
+        src: "https://cdn.hwang.sh/wedding/photo/HAN09530.jpg",
+        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN09530-thumbnail.jpg",
+        thumbnailWidth: 110,
+        thumbnailHeight: 110,
+        alt: "서자영에게 책을 읽어주는 황성현",
+    },
+    {
+        src: "https://cdn.hwang.sh/wedding/photo/HAN09314.jpg",
+        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN09314-thumbnail.jpg",
+        thumbnailWidth: 110,
+        thumbnailHeight: 110,
+        alt: "안경에 손을 올리고 활짝 웃는 황성현",
     },
 ];
 
@@ -106,13 +94,35 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>자영.성현.결혼.</title>
+        <title>자영·성현 결혼합니다</title>
+        <meta charSet="UTF-8"/>
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta property="og:title" content="자영·성현 결혼합니다"/>
+        <meta property="og:url" content="https://jayoung.sunghyun.wedding"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:image" content="https://cdn.hwang.sh/wedding/photo/HAN09258.jpg"/>
+        <meta property="og:description" content="10월 10일 12시 30분에 자영·성현 인천 네스트 호텔에서 결혼합니다. 뜻깊은 자리에 오시어 축복해주십시오."/>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&family=Noto+Serif+KR:wght@300;400&display=swap" rel="stylesheet"/>
+        <link rel="canonical" href="https://jayoung.sunghyun.wedding" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114927612-2" />
+        <script dangerouslySetInnerHTML={{
+        __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-114927612-2');
+        `,
+        }}/>
+        <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.hwang.sh/wedding/favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.hwang.sh/wedding/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.hwang.sh/wedding/favicon/favicon-16x16.png" />
+        <meta name="theme-color" content="#fff" />
       </Head>
       <main>
           <header className={styles.header}>
               <div>
-                  <img className={styles.headerTitle} src="https://cdn.hwang.sh/wedding/header-title.svg" alt="결혼합니다" />
+                  <img className={styles.headerTitle} src="https://cdn.hwang.sh/wedding/header-title-white.svg" alt="결혼합니다" />
                   <img className={styles.headerDate} src="https://cdn.hwang.sh/wedding/header-date.svg" alt="10월 10일" />
               </div>
           </header>
@@ -120,32 +130,31 @@ export default function Home() {
               <table className={styles.infoUs}>
                   <thead>
                       <tr>
-                          <th>신랑</th>
-                          <th>신부</th>
+                          <th className={styles.infoUsLabel}>신랑</th>
+                          <th className={styles.infoUsLabel}>신부</th>
                       </tr>
                   </thead>
                   <tbody>
                       <tr>
-                          <td>황성현</td>
-                          <td>서자영</td>
+                          <td><a href="sms:+821023831083">황성현</a></td>
+                          <td><a href="sms:+821020610827">서자영</a></td>
                       </tr>
                   </tbody>
               </table>
               <div className={styles.infoWhenAndWhere}>
                   <time dateTime="2020-10-10T12:30:00.000+09:00" className={styles.infoWhen}>2020년 10월 10일 12시 30분</time>
                   <p className={styles.infoWhere}><a href="https://goo.gl/maps/LZdGmn4ct9aJvMTs9">인천 네스트 호텔</a></p>
-                  <a href="https://calendar.google.com/calendar/r/eventedit?text=%EC%9E%90%EC%98%81%C2%B7%EC%84%B1%ED%98%84%20%EA%B2%B0%ED%98%BC%EC%8B%9D&dates=20201010T033000Z/20201010T050000Z&details=7%EB%85%84%EC%9D%98%20%EB%A7%8C%EB%82%A8%20%EB%81%9D%EC%97%90%20%EC%A0%80%ED%9D%AC%20%EB%91%90%20%EC%82%AC%EB%9E%8C%EC%9D%B4%20%ED%95%9C%EB%A7%88%EC%9D%8C%EC%9C%BC%EB%A1%9C%20%EC%A7%84%EC%8B%A4%ED%95%9C%20%EC%82%AC%EB%9E%91%EC%9D%98%20%EA%B2%B0%EC%8B%A4%EC%9D%84%20%EB%A7%BA%EA%B8%B0%EB%A1%9C%20%EC%95%BD%EC%86%8D%ED%96%88%EC%8A%B5%EB%8B%88%EB%8B%A4.%20%EB%9C%BB%EA%B9%8A%EC%9D%80%20%EC%9E%90%EB%A6%AC%EC%97%90%20%EC%98%A4%EC%8B%9C%EC%96%B4%20%EC%B6%95%EB%B3%B5%ED%95%B4%EC%A3%BC%EC%8B%AD%EC%8B%9C%EC%98%A4.%20%EB%8D%94%20%EC%9E%90%EC%84%B8%ED%95%9C%20%EC%A0%95%EB%B3%B4%EB%8A%94%20%EC%B2%A8%EB%B6%80%ED%95%9C%20%EC%A3%BC%EC%86%8C%20%ED%99%95%EC%9D%B8%20%EB%B6%80%ED%83%81%EB%93%9C%EB%A6%BD%EB%8B%88%EB%8B%A4.%20https%3A%2F%2Fjayoung.sunghyun.wedding&location=%EB%84%A4%EC%8A%A4%ED%8A%B8%20%ED%98%B8%ED%85%94%2C%20%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%20%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%A4%91%EA%B5%AC%20%EC%9A%A9%EC%9C%A0%EB%8F%99%20%EC%98%81%EC%A2%85%ED%95%B4%EC%95%88%EB%82%A8%EB%A1%9C%2019-5" className={styles.infoCalendarBtn}>캘린더에 일정 추가</a>
               </div>
               <div className={styles.infoOurParents}>
                   <table>
                       <tbody>
                       <tr>
                           <td className={styles.infoOurParentsLabel}>신랑 어머니</td>
-                          <td>최영선</td>
+                          <td><a href="tel:+821096020006">최영선</a></td>
                       </tr>
                       <tr>
                           <td className={styles.infoOurParentsLabel}>신랑 아버지</td>
-                          <td>황영일</td>
+                          <td><a href="tel:+821036351083">황영일</a></td>
                       </tr>
                       </tbody>
                   </table>
@@ -153,11 +162,11 @@ export default function Home() {
                       <tbody>
                       <tr>
                           <td className={styles.infoOurParentsLabel}>신부 어머니</td>
-                          <td>서미선</td>
+                          <td><a href="tel:+821050504522">서미선</a></td>
                       </tr>
                       <tr>
                           <td className={styles.infoOurParentsLabel}>신부 아버지</td>
-                          <td>서광석</td>
+                          <td><a href="tel:+821053364521">서광석</a></td>
                       </tr>
                       </tbody>
                   </table>
@@ -168,6 +177,7 @@ export default function Home() {
               <Gallery
                   images={IMAGES}
                   enableImageSelection={false}
+                  maxRows={4}
               />
           </section>
 
@@ -191,9 +201,6 @@ export default function Home() {
                           - 네스트호텔 또는 주소 검색
                           <br />
                           - 용유역 또는 경정훈련원, 거잠포 선착장 검색
-                          <br />
-                          <br />
-                          (업그레이드가 되지 않은 네비의 경우 위의 단어로 검색)
                       </p>
                   </li>
                   <li>
@@ -214,9 +221,9 @@ export default function Home() {
               </ul>
           </section>
           <footer className={styles.us}>
-              <p className={styles.usTitle}>오시는 길 심심치 않도록<br/>저희 부부가 요즘 관심있는 주제의 영상을 모아봤어요</p>
+              <p className={styles.usTitle}>오시는 길 심심치 않도록<br/>저희가 관심있는 주제의 영상을 모아봤어요</p>
               <div className={styles.usVideo}>
-                  <iframe width="560" height="315"
+                  <iframe
                           src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL5RL7r5pQ8lRylqEdrg9Rh1a-IWw0mZoy"
                           frameBorder="0"
                           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

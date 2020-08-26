@@ -17,7 +17,8 @@
   position: absolute;
   width: 79vw;
   left: 5.33%;
-  top: 5.9%
+  top: 5.9%;
+  opacity: 0.8;
 }
 
 .headerDate {
@@ -38,8 +39,9 @@
   border-spacing: 2rem 0.8125rem;
 }
 
-.infoUs thead {
+.infoUsLabel {
   font-size: 0.75rem;
+  font-weight: 300;
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -63,13 +65,6 @@
 
 .infoWhere {
   margin: .875rem 0;
-}
-
-.infoCalendarBtn {
-  display: block;
-  margin: 1.5625rem 0 0 0;
-  font-size: 0.75rem;
-  color: rgba(0, 0, 0, 0.6);
 }
 
 .infoOurParents {
@@ -102,7 +97,8 @@
 .contactTitle {
   margin: 3rem 0;
   text-align: center;
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 300;
   color: rgba(0, 0, 0, 0.6);
 }
 
