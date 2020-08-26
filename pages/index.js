@@ -101,7 +101,7 @@ export default function Home() {
         <meta property="og:title" content="자영·성현 결혼합니다"/>
         <meta property="og:url" content="https://jayoung.sunghyun.wedding"/>
         <meta property="og:type" content="article"/>
-        <meta property="og:image" content="https://cdn.hwang.sh/wedding/photo/HAN09258.jpg"/>
+        <meta property="og:image" content="https://cdn.hwang.sh/wedding/photo/HAN08929-thumbnail.jpg"/>
         <meta property="og:description" content="10월 10일 12시 30분에 자영·성현 인천 네스트 호텔에서 결혼합니다. 뜻깊은 자리에 오시어 축복해주십시오."/>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&family=Noto+Serif+KR:wght@300;400&display=swap" rel="stylesheet"/>
         <link rel="canonical" href="https://jayoung.sunghyun.wedding" />
@@ -143,7 +143,7 @@ export default function Home() {
               </table>
               <div className={styles.infoWhenAndWhere}>
                   <time dateTime="2020-10-10T12:30:00.000+09:00" className={styles.infoWhen}>2020년 10월 10일 12시 30분</time>
-                  <p className={styles.infoWhere}><a href="https://goo.gl/maps/LZdGmn4ct9aJvMTs9">인천 네스트 호텔</a></p>
+                  <p className={styles.infoWhere}><a href="https://www.nesthotel.co.kr/about/about.asp#aboutBox6">인천 네스트 호텔</a></p>
               </div>
               <div className={styles.infoOurParents}>
                   <table>
