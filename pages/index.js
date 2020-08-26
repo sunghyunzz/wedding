@@ -126,6 +126,10 @@ export default function Home() {
             gtag('config', 'UA-114927612-2');
         `,
         }}/>
+        <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.hwang.sh/wedding/favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.hwang.sh/wedding/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.hwang.sh/wedding/favicon/favicon-16x16.png" />
+        <meta name="theme-color" content="#fff" />
       </Head>
       <main>
           <header className={styles.header}>
