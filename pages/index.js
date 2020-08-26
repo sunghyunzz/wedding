@@ -13,14 +13,6 @@ const IMAGES = [
         caption: "",
     },
     {
-        src: "https://cdn.hwang.sh/wedding/photo/HAN08352.jpg",
-        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN08352-thumbnail.jpg",
-        thumbnailWidth: 110,
-        thumbnailHeight: 110,
-        alt: "",
-        caption: "",
-    },
-    {
         src: "https://cdn.hwang.sh/wedding/photo/HAN08365.jpg",
         thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN08365-thumbnail.jpg",
         thumbnailWidth: 110,
@@ -29,16 +21,16 @@ const IMAGES = [
         caption: "",
     },
     {
-        src: "https://cdn.hwang.sh/wedding/photo/HAN08584.jpg",
-        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN08584-thumbnail.jpg",
+        src: "https://cdn.hwang.sh/wedding/photo/HAN08352.jpg",
+        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN08352-thumbnail.jpg",
         thumbnailWidth: 110,
         thumbnailHeight: 110,
         alt: "",
         caption: "",
     },
     {
-        src: "https://cdn.hwang.sh/wedding/photo/HAN08929.jpg",
-        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN08929-thumbnail.jpg",
+        src: "https://cdn.hwang.sh/wedding/photo/HAN08584.jpg",
+        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN08584-thumbnail.jpg",
         thumbnailWidth: 110,
         thumbnailHeight: 110,
         alt: "",
@@ -61,16 +53,24 @@ const IMAGES = [
         caption: "",
     },
     {
-        src: "https://cdn.hwang.sh/wedding/photo/HAN09258.jpg",
-        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN09258-thumbnail.jpg",
+        src: "https://cdn.hwang.sh/wedding/photo/HAN08929.jpg",
+        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN08929-thumbnail.jpg",
         thumbnailWidth: 110,
         thumbnailHeight: 110,
         alt: "",
         caption: "",
     },
     {
-        src: "https://cdn.hwang.sh/wedding/photo/HAN09314.jpg",
-        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN09314-thumbnail.jpg",
+        src: "https://cdn.hwang.sh/wedding/photo/HAN09727.jpg",
+        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN09727-thumbnail.jpg",
+        thumbnailWidth: 110,
+        thumbnailHeight: 110,
+        alt: "",
+        caption: "",
+    },
+    {
+        src: "https://cdn.hwang.sh/wedding/photo/HAN09258.jpg",
+        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN09258-thumbnail.jpg",
         thumbnailWidth: 110,
         thumbnailHeight: 110,
         alt: "",
@@ -93,8 +93,8 @@ const IMAGES = [
         caption: "",
     },
     {
-        src: "https://cdn.hwang.sh/wedding/photo/HAN09727.jpg",
-        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN09727-thumbnail.jpg",
+        src: "https://cdn.hwang.sh/wedding/photo/HAN09314.jpg",
+        thumbnail: "https://cdn.hwang.sh/wedding/photo/HAN09314-thumbnail.jpg",
         thumbnailWidth: 110,
         thumbnailHeight: 110,
         alt: "",
@@ -134,7 +134,7 @@ export default function Home() {
       <main>
           <header className={styles.header}>
               <div>
-                  <img className={styles.headerTitle} src="https://cdn.hwang.sh/wedding/header-title.svg" alt="결혼합니다" />
+                  <img className={styles.headerTitle} src="https://cdn.hwang.sh/wedding/header-title-white.svg" alt="결혼합니다" />
                   <img className={styles.headerDate} src="https://cdn.hwang.sh/wedding/header-date.svg" alt="10월 10일" />
               </div>
           </header>
