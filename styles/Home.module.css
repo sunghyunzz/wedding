@@ -38,8 +38,9 @@
   border-spacing: 2rem 0.8125rem;
 }
 
-.infoUs thead {
+.infoUsLabel {
   font-size: 0.75rem;
+  font-weight: 300;
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -102,7 +103,8 @@
 .contactTitle {
   margin: 3rem 0;
   text-align: center;
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 300;
   color: rgba(0, 0, 0, 0.6);
 }
 

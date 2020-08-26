@@ -120,14 +120,14 @@ export default function Home() {
               <table className={styles.infoUs}>
                   <thead>
                       <tr>
-                          <th>신랑</th>
-                          <th>신부</th>
+                          <th className={styles.infoUsLabel}>신랑</th>
+                          <th className={styles.infoUsLabel}>신부</th>
                       </tr>
                   </thead>
                   <tbody>
                       <tr>
-                          <td>황성현</td>
-                          <td>서자영</td>
+                          <td><a href="sms:+821023831083">황성현</a></td>
+                          <td><a href="sms:+821020610827">서자영</a></td>
                       </tr>
                   </tbody>
               </table>
@@ -141,11 +141,11 @@ export default function Home() {
                       <tbody>
                       <tr>
                           <td className={styles.infoOurParentsLabel}>신랑 어머니</td>
-                          <td>최영선</td>
+                          <td><a href="tel:+821096020006">최영선</a></td>
                       </tr>
                       <tr>
                           <td className={styles.infoOurParentsLabel}>신랑 아버지</td>
-                          <td>황영일</td>
+                          <td><a href="tel:+821036351083">황영일</a></td>
                       </tr>
                       </tbody>
                   </table>
@@ -153,11 +153,11 @@ export default function Home() {
                       <tbody>
                       <tr>
                           <td className={styles.infoOurParentsLabel}>신부 어머니</td>
-                          <td>서미선</td>
+                          <td><a href="tel:+821050504522">서미선</a></td>
                       </tr>
                       <tr>
                           <td className={styles.infoOurParentsLabel}>신부 아버지</td>
-                          <td>서광석</td>
+                          <td><a href="tel:+821053364521">서광석</a></td>
                       </tr>
                       </tbody>
                   </table>
@@ -168,6 +168,7 @@ export default function Home() {
               <Gallery
                   images={IMAGES}
                   enableImageSelection={false}
+                  maxRows={4}
               />
           </section>
 
@@ -191,9 +192,6 @@ export default function Home() {
                           - 네스트호텔 또는 주소 검색
                           <br />
                           - 용유역 또는 경정훈련원, 거잠포 선착장 검색
-                          <br />
-                          <br />
-                          (업그레이드가 되지 않은 네비의 경우 위의 단어로 검색)
                       </p>
                   </li>
                   <li>
@@ -214,9 +212,9 @@ export default function Home() {
               </ul>
           </section>
           <footer className={styles.us}>
-              <p className={styles.usTitle}>오시는 길 심심치 않도록<br/>저희 부부가 요즘 관심있는 주제의 영상을 모아봤어요</p>
+              <p className={styles.usTitle}>오시는 길 심심치 않도록<br/>저희가 관심있는 주제의 영상을 모아봤어요</p>
               <div className={styles.usVideo}>
-                  <iframe width="560" height="315"
+                  <iframe
                           src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL5RL7r5pQ8lRylqEdrg9Rh1a-IWw0mZoy"
                           frameBorder="0"
                           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
