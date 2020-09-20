@@ -120,14 +120,14 @@
   line-height: 1.5;
 }
 
+.covid19Howto a {
+  text-decoration: underline;
+}
+
 .covid19HowtoLabel {
   font-size: 0.75rem;
   font-weight: 300;
   color: rgba(0, 0, 0, 0.6);
-}
-
-.covid19AccountHolder {
-  font-size: 0.8rem;
 }
 
 .gallery {

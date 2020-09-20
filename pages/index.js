@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import React from "react";
 import Gallery from 'react-grid-gallery';
+import Clipboard from 'react-clipboard.js';
 
 const IMAGES = [
     {
@@ -193,20 +194,32 @@ export default function Home() {
                   <span className={styles.covid19HowtoTitle}>마음 전하실 곳</span>
                   <br/><br/>
                   <div>
-                      <span className={styles.covid19HowtoLabel}>신랑</span>
-                      <br/>카카오 3333-03-7219355 <span className={styles.covid19AccountHolder}>(황성현)</span>
+                      <span className={styles.covid19HowtoLabel}>신랑 황성현</span>
+                      <br/>
+                      <Clipboard component="a" data-clipboard-text="카카오 3333-03-7219355">
+                      카카오 3333-03-7219355
+                      </Clipboard>
                       <br/>
                       <br/>
-                      <span className={styles.covid19HowtoLabel}>신랑측 혼주</span>
-                      <br/>농협 356-1315-5907-03 <span className={styles.covid19AccountHolder}>(황영일)</span>
+                      <span className={styles.covid19HowtoLabel}>신랑측 혼주 황영일</span>
+                      <br/>
+                      <Clipboard component="a" data-clipboard-text="농협 356-1315-5907-03">
+                      농협 356-1315-5907-03
+                      </Clipboard>
                       <br/>
                       <br/>
-                      <span className={styles.covid19HowtoLabel}>신부</span>
-                      <br/>카카오 3333-04-5817344 <span className={styles.covid19AccountHolder}>(서자영)</span>
+                      <span className={styles.covid19HowtoLabel}>신부 서자영</span>
+                      <br/>
+                      <Clipboard component="a" data-clipboard-text="카카오 3333-04-5817344">
+                      카카오 3333-04-5817344
+                      </Clipboard>
                       <br/>
                       <br/>
-                      <span className={styles.covid19HowtoLabel}>신부측 혼주</span>
-                      <br/>하나 621-910277-41908 <span className={styles.covid19AccountHolder}>(서광석)</span>
+                      <span className={styles.covid19HowtoLabel}>신부측 혼주 서광석</span>
+                      <br/>
+                      <Clipboard component="a" data-clipboard-text="하나 621-910277-41908">
+                      하나 621-910277-41908
+                      </Clipboard>
                   </div>
               </div>
           </section>
