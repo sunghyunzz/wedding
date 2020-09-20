@@ -103,7 +103,7 @@ export default function Home() {
         <meta property="og:type" content="article"/>
         <meta property="og:image" content="https://cdn.hwang.sh/wedding/photo/HAN08929-thumbnail.jpg"/>
         <meta property="og:description" content="10월 10일 12시 30분에 자영·성현 인천 네스트 호텔에서 결혼합니다. 뜻깊은 자리에 오시어 축복해주십시오."/>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&family=Noto+Serif+KR:wght@300;400&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&family=Noto+Serif+KR:wght@200;300;400&display=swap" rel="stylesheet"/>
         <link rel="canonical" href="https://jayoung.sunghyun.wedding" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114927612-2" />
         <script dangerouslySetInnerHTML={{
@@ -170,6 +170,44 @@ export default function Home() {
                       </tr>
                       </tbody>
                   </table>
+              </div>
+          </section>
+
+          <section className={styles.covid19}>
+              <p className={styles.covid19Guide}>
+                  <span>저희의 결혼을 축하해주시는 분들께</span>
+                  <br/><br/>
+                  안녕하세요, 서자영·황성현입니다.
+                  수도권의 코로나19 사회적 거리두기 2단계가 약 한 달째 유지되고 있습니다.
+                  결혼식 날짜가 다가올수록 저희 역시 결혼식 진행 여부를 두고 고민이 많았습니다.
+                  하지만 언제쯤 상황이 나아질지 짐작하기 어려워 결혼식을 미루지 않고 예정대로 진행하기로 했습니다.
+                  <br/><br/>
+                  많은 분의 축하 속에 결혼식을 올리고 싶었으나, 결혼식 당일에도 수도권 코로나19 사회적 거리두기 2단계가 유지될 것으로 예상됩니다.
+                  이에 가족들만 모시고 결혼식을 진행하려 합니다.
+                  <br/><br/>
+                  결혼식에 직접 참석하지 못하시더라도 마음 가득 저희를 축복해주시기 바랍니다.
+                  전해주시는 축하의 마음만으로도 큰 기쁨이 됩니다.
+                  새로운 출발을 축하해주시는 모든 분께 진심으로 감사드리며 보람 있는 하루하루 보내시기를 기원합니다. 감사합니다.
+              </p>
+              <div className={styles.covid19Howto}>
+                  <span className={styles.covid19HowtoTitle}>마음 전하실 곳</span>
+                  <br/><br/>
+                  <div>
+                      <span className={styles.covid19HowtoLabel}>신랑</span>
+                      <br/>카카오 3333-03-7219355 <span className={styles.covid19AccountHolder}>(황성현)</span>
+                      <br/>
+                      <br/>
+                      <span className={styles.covid19HowtoLabel}>신랑측 혼주</span>
+                      <br/>농협 356-1315-5907-03 <span className={styles.covid19AccountHolder}>(황영일)</span>
+                      <br/>
+                      <br/>
+                      <span className={styles.covid19HowtoLabel}>신부</span>
+                      <br/>카카오 3333-04-5817344 <span className={styles.covid19AccountHolder}>(서자영)</span>
+                      <br/>
+                      <br/>
+                      <span className={styles.covid19HowtoLabel}>신부측 혼주</span>
+                      <br/>하나 621-910277-41908 <span className={styles.covid19AccountHolder}>(서광석)</span>
+                  </div>
               </div>
           </section>
 
