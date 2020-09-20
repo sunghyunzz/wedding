@@ -5,6 +5,7 @@
 }
 
 .header {
+  position: relative;
   height: 100vh;
   background-image: url("https://cdn.hwang.sh/wedding/header-bg-2x-compressed.png");
   background-repeat: no-repeat;
@@ -16,6 +17,7 @@
 .headerTitle {
   position: absolute;
   width: 79vw;
+  max-width: 300px;
   left: 5.33%;
   top: 5.9%;
   opacity: 0.8;
@@ -24,7 +26,8 @@
 .headerDate {
   position: absolute;
   width: 33vw;
-  right: 7%;
+  max-width: 150px;
+  right: 5%;
   bottom: 6.64%;
 }
 
