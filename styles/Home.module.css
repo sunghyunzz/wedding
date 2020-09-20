@@ -5,6 +5,7 @@
 }
 
 .header {
+  position: relative;
   height: 100vh;
   background-image: url("https://cdn.hwang.sh/wedding/header-bg-2x-compressed.png");
   background-repeat: no-repeat;
@@ -16,6 +17,7 @@
 .headerTitle {
   position: absolute;
   width: 79vw;
+  max-width: 300px;
   left: 5.33%;
   top: 5.9%;
   opacity: 0.8;
@@ -24,7 +26,8 @@
 .headerDate {
   position: absolute;
   width: 33vw;
-  right: 7%;
+  max-width: 150px;
+  right: 5%;
   bottom: 6.64%;
 }
 
@@ -81,6 +84,47 @@
 
 .infoOurParentsLabel {
   font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.covid19 {
+  margin: 1rem 0;
+}
+
+.covid19Guide {
+  font-size: 0.875rem;
+  line-height: 1.55;
+  text-align: center;
+  margin: 0 1.7rem;
+  word-break: keep-all;
+}
+
+.covid19Howto {
+  font-size: 0.875rem;
+  line-height: 1.55;
+  text-align: center;
+  margin: 3rem 1.7rem;
+  word-break: keep-all;
+}
+
+.covid19HowtoTitle {
+  font-size: .875rem;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.covid19Howto div {
+  display: inline-block;
+  line-height: 1.5;
+}
+
+.covid19Howto a {
+  text-decoration: underline;
+}
+
+.covid19HowtoLabel {
+  font-size: 0.75rem;
+  font-weight: 300;
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -146,40 +190,4 @@
   font-weight: 400;
   display: block;
   margin: 1.75rem 0 0 0;
-}
-
-.us {
-  position: relative;
-  margin: 8.4375rem 3% 3% 3%;
-}
-
-.usTitle {
-  text-align: center;
-  margin: 0 0 2.625rem 0;
-}
-
-.usTitle::before {
-  content: '';
-  width: 100%;
-  height: 4rem;
-  display: block;
-  background-image: url("https://cdn.hwang.sh/wedding/thanks.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: -3.125rem;
-}
-
-.usVideo {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-}
-
-.usVideo iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }

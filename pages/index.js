@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import React from "react";
 import Gallery from 'react-grid-gallery';
+import Clipboard from 'react-clipboard.js';
 
 const IMAGES = [
     {
@@ -173,6 +174,56 @@ export default function Home() {
               </div>
           </section>
 
+          <section className={styles.covid19}>
+              <p className={styles.covid19Guide}>
+                  <span>저희의 결혼을 축하해주시는 분들께</span>
+                  <br/><br/>
+                  안녕하세요, 서자영·황성현입니다.
+                  수도권의 코로나19 사회적 거리두기 2단계가 약 한 달째 유지되고 있습니다.
+                  결혼식 날짜가 다가올수록 저희 역시 결혼식 진행 여부를 두고 고민이 많았습니다.
+                  하지만 언제쯤 상황이 나아질지 짐작하기 어려워 결혼식을 미루지 않고 예정대로 진행하기로 했습니다.
+                  <br/><br/>
+                  많은 분의 축하 속에 결혼식을 올리고 싶었으나, 결혼식 당일에도 수도권 코로나19 사회적 거리두기 2단계가 유지될 것으로 예상됩니다.
+                  이에 가족들만 모시고 결혼식을 진행하려 합니다.
+                  <br/><br/>
+                  결혼식에 직접 참석하지 못하시더라도 마음 가득 저희를 축복해주시기 바랍니다.
+                  전해주시는 축하의 마음만으로도 큰 기쁨이 됩니다.
+                  새로운 출발을 축하해주시는 모든 분께 진심으로 감사드리며 보람 있는 하루하루 보내시기를 기원합니다. 감사합니다.
+              </p>
+              <div className={styles.covid19Howto}>
+                  <span className={styles.covid19HowtoTitle}>마음 전하실 곳</span>
+                  <br/><br/>
+                  <div>
+                      <span className={styles.covid19HowtoLabel}>신랑 황성현</span>
+                      <br/>
+                      <Clipboard component="a" data-clipboard-text="카카오 3333-03-7219355">
+                      카카오 3333-03-7219355
+                      </Clipboard>
+                      <br/>
+                      <br/>
+                      <span className={styles.covid19HowtoLabel}>신랑측 혼주 황영일</span>
+                      <br/>
+                      <Clipboard component="a" data-clipboard-text="농협 356-1315-5907-03">
+                      농협 356-1315-5907-03
+                      </Clipboard>
+                      <br/>
+                      <br/>
+                      <span className={styles.covid19HowtoLabel}>신부 서자영</span>
+                      <br/>
+                      <Clipboard component="a" data-clipboard-text="카카오 3333-04-5817344">
+                      카카오 3333-04-5817344
+                      </Clipboard>
+                      <br/>
+                      <br/>
+                      <span className={styles.covid19HowtoLabel}>신부측 혼주 서광석</span>
+                      <br/>
+                      <Clipboard component="a" data-clipboard-text="하나 621-910277-41908">
+                      하나 621-910277-41908
+                      </Clipboard>
+                  </div>
+              </div>
+          </section>
+
           <section className={styles.gallery}>
               <Gallery
                   images={IMAGES}
@@ -214,22 +265,8 @@ export default function Home() {
                       </p>
                       <a href="https://www.nesthotel.co.kr/about/popup_bus01.asp#bustop" className={styles.contactHowtoBus}>무료 셔틀버스 시간표</a>
                   </li>
-                  <li>
-                      <h3 className={styles.contactHowtoTitle}>광주광역시에서 출발하시는 하객 분</h3>
-                      <p className={styles.contactHowtoDescription}>버스 대절 예정이니 신랑측 혼주께 연락바랍니다.</p>
-                  </li>
               </ul>
           </section>
-          <footer className={styles.us}>
-              <p className={styles.usTitle}>오시는 길 심심치 않도록<br/>저희가 관심있는 주제의 영상을 모아봤어요</p>
-              <div className={styles.usVideo}>
-                  <iframe
-                          src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL5RL7r5pQ8lRylqEdrg9Rh1a-IWw0mZoy"
-                          frameBorder="0"
-                          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                          allowFullScreen></iframe>
-              </div>
-          </footer>
       </main>
     </div>
   )
