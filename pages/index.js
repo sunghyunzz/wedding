@@ -214,22 +214,8 @@ export default function Home() {
                       </p>
                       <a href="https://www.nesthotel.co.kr/about/popup_bus01.asp#bustop" className={styles.contactHowtoBus}>무료 셔틀버스 시간표</a>
                   </li>
-                  <li>
-                      <h3 className={styles.contactHowtoTitle}>광주광역시에서 출발하시는 하객 분</h3>
-                      <p className={styles.contactHowtoDescription}>버스 대절 예정이니 신랑측 혼주께 연락바랍니다.</p>
-                  </li>
               </ul>
           </section>
-          <footer className={styles.us}>
-              <p className={styles.usTitle}>오시는 길 심심치 않도록<br/>저희가 관심있는 주제의 영상을 모아봤어요</p>
-              <div className={styles.usVideo}>
-                  <iframe
-                      src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL5RL7r5pQ8lRylqEdrg9Rh1a-IWw0mZoy"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen></iframe>
-              </div>
-          </footer>
       </main>
     </div>
   )

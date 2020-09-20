@@ -150,39 +150,3 @@
   display: block;
   margin: 1.75rem 0 0 0;
 }
-
-.us {
-  position: relative;
-  margin: 8.4375rem 3% 3% 3%;
-}
-
-.usTitle {
-  text-align: center;
-  margin: 0 0 2.625rem 0;
-}
-
-.usTitle::before {
-  content: '';
-  width: 100%;
-  height: 4rem;
-  display: block;
-  background-image: url("https://cdn.hwang.sh/wedding/thanks.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: -3.125rem;
-}
-
-.usVideo {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-}
-
-.usVideo iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
