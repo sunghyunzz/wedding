@@ -104,7 +104,7 @@ export default function Home() {
         <meta property="og:type" content="article"/>
         <meta property="og:image" content="https://cdn.hwang.sh/wedding/photo/HAN08929-thumbnail.jpg"/>
         <meta property="og:description" content="10월 10일 12시 30분에 자영·성현 인천 네스트 호텔에서 결혼합니다. 뜻깊은 자리에 오시어 축복해주십시오."/>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&family=Noto+Serif+KR:wght@200;300;400&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&family=Noto+Serif+KR:wght@300;400&display=swap" rel="stylesheet"/>
         <link rel="canonical" href="https://jayoung.sunghyun.wedding" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114927612-2" />
         <script dangerouslySetInnerHTML={{
