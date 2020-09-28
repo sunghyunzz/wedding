@@ -99,6 +99,10 @@
   word-break: keep-all;
 }
 
+.covid19Guide a {
+  text-decoration: underline;
+}
+
 .covid19Howto {
   font-size: 0.875rem;
   line-height: 1.55;
