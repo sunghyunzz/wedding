@@ -269,6 +269,17 @@ export function MakeHome(shouldShowAccounts) {
                         </li>
                     </ul>
                 </section>
+                <footer className={styles.live}>
+                    <p className={styles.liveTitle}>온라인으로도 만나요!</p>
+                    <div className={styles.liveVideo}>
+                        <iframe
+                            src="https://www.youtube.com/embed/9m5Qp5F1NEM"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+                </footer>
             </main>
         </div>
     )
